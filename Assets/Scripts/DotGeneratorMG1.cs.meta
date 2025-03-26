@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 85f7043ca7661414dba17f396061228e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - redDotPrefab: {fileID: 1890536195070814869, guid: d254fd8d8a6869344890aca2c931920d, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
