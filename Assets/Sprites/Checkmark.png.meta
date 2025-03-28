@@ -147,8 +147,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
     nameFileIdTable:
       Checkmark_0: 2780540300400067551
+=======
+    nameFileIdTable: {}
+>>>>>>> Stashed changes
+=======
+    nameFileIdTable: {}
+>>>>>>> Stashed changes
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
