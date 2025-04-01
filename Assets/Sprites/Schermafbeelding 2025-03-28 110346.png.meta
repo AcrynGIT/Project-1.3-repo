@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d0c4be00a3465a246bebe04b34953cf8
+guid: 7996ae8e8ad9c694594ab3d669352eb4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1027060550042066265
-    second: GirlSkin_0
+      213: 4023232220732075504
+    second: Schermafbeelding 2025-03-28 110346_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GirlSkin_0
+      name: Schermafbeelding 2025-03-28 110346_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 601
-        height: 701
+        width: 1256
+        height: 717
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 95d1310f02ad04e00800000000000000
-      internalID: 1027060550042066265
+      spriteID: 0fd24a5836465d730800000000000000
+      internalID: 4023232220732075504
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GirlSkin_0: 1027060550042066265
+      Schermafbeelding 2025-03-28 110346_0: 4023232220732075504
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

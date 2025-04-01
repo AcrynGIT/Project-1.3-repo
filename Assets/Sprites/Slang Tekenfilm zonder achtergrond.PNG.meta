@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d0c4be00a3465a246bebe04b34953cf8
+guid: e64769acf7ebc124e8af3d55b36a1d13
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1027060550042066265
-    second: GirlSkin_0
+      213: 8458142517544149005
+    second: Slang Tekenfilm zonder achtergrond_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GirlSkin_0
+      name: Slang Tekenfilm zonder achtergrond_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 601
-        height: 701
+        x: 15
+        y: 4
+        width: 1425
+        height: 359
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 95d1310f02ad04e00800000000000000
-      internalID: 1027060550042066265
+      spriteID: d00e8d97ecb516570800000000000000
+      internalID: 8458142517544149005
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GirlSkin_0: 1027060550042066265
+      Slang Tekenfilm zonder achtergrond_0: 8458142517544149005
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

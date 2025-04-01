@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d0c4be00a3465a246bebe04b34953cf8
+guid: 70ee57ab08f7e854e8f5e817ed8e5e36
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1027060550042066265
-    second: GirlSkin_0
+      213: 8285784491685865098
+    second: Rondje_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +113,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GirlSkin_0
+      name: Rondje_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 601
-        height: 701
+        width: 237
+        height: 239
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
+      outline:
+      - - {x: 103, y: 0.5}
+        - {x: 88, y: 62.5}
+        - {x: 63, y: 90.5}
+        - {x: 24, y: 107.5}
+        - {x: -33, y: 106.5}
+        - {x: -71, y: 88.5}
+        - {x: -96, y: 65.5}
+        - {x: -110, y: 17.5}
+        - {x: -107, y: -29.5}
+        - {x: -86, y: -68.5}
+        - {x: -4, y: -106.5}
+        - {x: 78, y: -70.5}
+      - - {x: -5, y: -94.5}
+        - {x: -2, y: -94.5}
+        - {x: -2, y: -73.5}
+        - {x: -5, y: -73.5}
+      physicsShape:
+      - - {x: 118.5, y: 119.5}
+        - {x: -118.5, y: 119.5}
+        - {x: -118.5, y: -119.5}
+        - {x: 118.5, y: -119.5}
+      tessellationDetail: 0
       bones: []
-      spriteID: 95d1310f02ad04e00800000000000000
-      internalID: 1027060550042066265
+      spriteID: a86606068150df270800000000000000
+      internalID: 8285784491685865098
       vertices: []
       indices: 
       edges: []
@@ -138,7 +158,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 860b8886dda95dd4096acad53def48b5
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +168,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GirlSkin_0: 1027060550042066265
+      Rondje_0: 8285784491685865098
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
