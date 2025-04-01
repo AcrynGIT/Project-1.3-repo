@@ -25,7 +25,5 @@ public class CheckmarkManager : MonoBehaviour
             GameManager.Instance.resultMessage = "oei, je hebt de breuk niet gevonden";
         }
 
-        // Load the end scene
-        SceneManager.LoadScene("Minigame1EndScene");
     }
 }

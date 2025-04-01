@@ -6,8 +6,10 @@ public class ButtonHandler : MonoBehaviour
     public GameObject currentGameObject;
     public GameObject otherGameObject;
     public GameObject targetGameObject;
+    public GameObject quizGameObject;
     public Button button;
     public Button activateButton;
+    public Button quizButton;
     public Button feitje2;
     public Button feitje3;
     public GameObject feitje2Object;
@@ -25,6 +27,7 @@ public class ButtonHandler : MonoBehaviour
     {
         currentGameObject.SetActive(false);
         otherGameObject.SetActive(true);
+        quizGameObject.SetActive(false);
         feitje2Object.SetActive(false);
         feitje3Object.SetActive(false);
         targetGameObject.SetActive(false);
@@ -37,6 +40,7 @@ public class ButtonHandler : MonoBehaviour
         otherGameObject.SetActive(false);
         feitje2Object.SetActive(false);
         feitje3Object.SetActive(false);
+        quizGameObject.SetActive(false);
     }
     void OnFeitje2ButtonClick()
     {
@@ -44,7 +48,8 @@ public class ButtonHandler : MonoBehaviour
         feitje3Object.SetActive(false);
         targetGameObject.SetActive(false);
         currentGameObject.SetActive(false);
-        otherGameObject.SetActive(false);       
+        otherGameObject.SetActive(false);
+        quizGameObject.SetActive(false);
     }
     void OnFeitje3ButtonClick()
     {
@@ -53,6 +58,16 @@ public class ButtonHandler : MonoBehaviour
         targetGameObject.SetActive(false);
         otherGameObject.SetActive(false);
         currentGameObject.SetActive(false);
+        quizGameObject.SetActive(false);
+    }
+    void OnquizGameObjectButtonClick()
+    {
+        feitje3Object.SetActive(true);
+        feitje2Object.SetActive(false);
+        targetGameObject.SetActive(false);
+        otherGameObject.SetActive(false);
+        currentGameObject.SetActive(false);
+        quizGameObject.SetActive(true);
     }
 
 }
