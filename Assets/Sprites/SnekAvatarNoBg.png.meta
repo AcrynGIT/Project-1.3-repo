@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3e716b1e0af18a44b9b8be4fc6073aff
+guid: 1dac1a5b31c056b4086e34c793865a5d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5017181573485995407
-    second: Schermafbeelding 2025-04-03 100246_0
+      213: 4083078909858758363
+    second: SnekAvatarNoBg_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Schermafbeelding 2025-04-03 100246_0
+      name: SnekAvatarNoBg_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 434
-        height: 308
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f85a4451f0c90a540800000000000000
-      internalID: 5017181573485995407
+      spriteID: bde350ca2a20aa830800000000000000
+      internalID: 4083078909858758363
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Schermafbeelding 2025-04-03 100246_0: 5017181573485995407
+      SnekAvatarNoBg_0: 4083078909858758363
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

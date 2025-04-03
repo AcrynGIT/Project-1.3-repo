@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3e716b1e0af18a44b9b8be4fc6073aff
+guid: 12752e1c50b519b498fbbce454d9791f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5017181573485995407
-    second: Schermafbeelding 2025-04-03 100246_0
+      213: 8942674396284160359
+    second: MonkeyAvatarNoBG_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Schermafbeelding 2025-04-03 100246_0
+      name: MonkeyAvatarNoBG_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 434
-        height: 308
+        x: 67
+        y: 60
+        width: 376
+        height: 372
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f85a4451f0c90a540800000000000000
-      internalID: 5017181573485995407
+      spriteID: 7698f7cabf2ca1c70800000000000000
+      internalID: 8942674396284160359
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Schermafbeelding 2025-04-03 100246_0: 5017181573485995407
+      MonkeyAvatarNoBG_0: 8942674396284160359
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

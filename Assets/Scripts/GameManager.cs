@@ -18,4 +18,9 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    public void ResetResultMessage()
+    {
+        resultMessage = string.Empty;
+    }
 }
