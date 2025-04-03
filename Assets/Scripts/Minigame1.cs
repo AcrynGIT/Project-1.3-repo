@@ -11,6 +11,7 @@ public class RehabilitationRace : MonoBehaviour
     public Button backButton; // Nieuwe button voor teruggaan
     public GameObject currentGameObject;
     public GameObject previousGameObject;
+    public Button restartButton; // Nieuwe button voor opnieuw spelen
 
     private string[] questions = {
         "Wat is de meest voorkomende botbreuk?",
@@ -44,8 +45,12 @@ public class RehabilitationRace : MonoBehaviour
 
     void Start()
     {
-        DisplayQuestion();
-        backButton.onClick.AddListener(OnBackButtonClick); // Voeg event listener toe voor de back button
+        
+            DisplayQuestion();
+            backButton.onClick.AddListener(OnBackButtonClick); // Voeg event listener toe voor de back button
+            restartButton.onClick.AddListener(OnRestartButtonClick); // Voeg event listener toe voor de restart button
+        
+
     }
 
     void DisplayQuestion()
@@ -92,5 +97,16 @@ public class RehabilitationRace : MonoBehaviour
     {
         currentGameObject.SetActive(false);
         previousGameObject.SetActive(true);
+    }
+    void OnRestartButtonClick()
+    {
+        currentQuestionIndex = 0;
+        score = 0;
+        scoreText.text = "Score: " + score;
+        foreach (Button btn in answerButtons)
+        {
+            btn.gameObject.SetActive(true);
+        }
+        DisplayQuestion();
     }
 }
