@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SnekAvatarBase_0: -7005501652417390354
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
